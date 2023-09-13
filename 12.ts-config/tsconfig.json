@@ -10,6 +10,13 @@
         "lib": ["ESNext", "DOM"],
         "strict": true,
         "strictNullChecks": true,
+        "baseUrl": "./",
+        "isolatedModules": true,
+        "removeComments": true,
+        "allowJs": true,
+        "checkJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true
     },
     "include": [
         "./src/**/*.ts",
